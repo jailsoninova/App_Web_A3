@@ -1,0 +1,42 @@
+.Conteiner {
+  background:linear-gradient(#11253D, #6A0066, #080064);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:20px 0;
+    margin:0;
+}
+.h1{
+  margin:0;
+  padding:0;
+  color:#fffabf;
+  font-size:clamp(14px, 32px, 4vw);
+}
+.containerFilho{
+   box-sizing: border-box;
+    
+}
+.h3_1{
+ width:clamp(100px, 12vw, 45vw);
+}
+.div1{
+display:flex;
+align-items: center;
+
+}
+img.fenix{
+  width: clamp(50px, 100px, 13vw);
+}
+
+.div4{
+  display:flex;
+  align-items: center;    
+  justify-content: space-between;
+  gap:30px;
+}
+
+.h3{
+  color:#FFFFFF;
+  font-size: clamp(0.875rem, 0.7442rem + 0.5365vw, 2rem);
+  
+}
