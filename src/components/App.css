@@ -1,0 +1,164 @@
+div.Conteiner {
+  background:linear-gradient(#11253D, #6A0066, #080064);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:10px 0;
+    margin:0;
+}
+.h1{
+  margin:0;
+  padding:0;
+  color:#fffabf;
+  font-size:clamp(14px, 32px, 4vw);
+  max-width: max-content;
+  height: max-content;
+}
+.containerFilho{
+   box-sizing: border-box;
+    
+}
+.h3_1{
+ width:clamp(100px, 12vw, 45vw);
+}
+.div1{
+display:flex;
+align-items: center;
+
+}
+div.slide_games
+
+.div4{
+  display:flex;
+  align-items: center;    
+  justify-content: space-between;
+  gap:30px;
+}
+
+.h3{
+  color:#FFFFFF;
+  font-size: clamp(0.875rem, 0.7442rem + 0.5365vw, 2rem);
+}
+.h3_2{
+  letter-spacing: 2px;
+}
+
+/*..........ROW SECOND - IMG FENIX E MONTANHAS..........*/
+figure.fig_fenix{
+  margin:0;
+  padding:0;
+  max-width:max-content;
+  height:max-content;
+}
+img.fenix{
+  width: clamp(50px, 100px, 13vw);
+}
+figure.img_mountain{
+  background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjIzNNchxiA4vjtgUs4nsJaTywqzylKsZBMKRidOSMs1BZc-TsNORuxJmp-TsJqgJMs_I_T2OkgRgZaI0973UWnebRsGmhDDp3P5pp-xeG9agkS5YuzaV0GkZVTKeJ0lmRoKDPlNvtbpOwoGeibnzkHN89YVJ2i7bB7_lselbgj_kYl5jco67TEVSmvqMk/s320/mountain%20.jpg");
+  background-position: 100%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height:210px;
+  margin:0;
+  padding:0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+img.fenix2 {
+  width:189px;
+  height:135px;
+  animation:imgfnx 7s ease-in-out alternate;
+  
+}
+/* keyframe para imagem mover */
+@keyframes imgfnx {
+  0%{
+    transform:scale(.2); 
+    opacity: 0;
+    transform: translateX(-600px); 
+    filter: blur(1px);
+  }
+  40%{
+    transform:scale(.4); 
+    transform:translateX(80px);
+    opacity: 1;     
+  }
+  60%{
+    transform:rotate(40px);
+    opacity: 1;
+  }
+  80%{
+    transform:rotate(20px);
+    transform:scale(1);    
+    transform:rotate(15deg); 
+    opacity: 1;
+  }
+  100% {    
+    transform:rotate(0); 
+    transform:scale(1);
+    opacity: 1;
+  }
+}
+
+/*........RESPONSIVIDADE LINHA 2......*/
+@media screen and (max-width: 834px) {
+  .fenix2 {
+  max-width:105px;
+  max-height:75.43px;
+  align-content: flex-start;
+  }
+  .img_mountain {
+    justify-content: left;
+    }
+}
+
+
+/*..........ROW THIRD - SLIDE DE IMAGENS..........*/
+
+div.slide-show{
+  overflow: hidden;
+  position:relative;
+}
+
+.slides-list{
+  /*remove os estilos da lista*/
+  list-style-type: none;
+  margin: 10px 0;
+  padding: 0;  
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap:20px;   
+margin:10px;
+}
+
+.setas_slide{
+  display:flex;
+  justify-content:  space-between;
+  align-items: center;
+  position:absolute;
+  z-index: 1;
+  width: 100%;
+  height:auto;
+  
+
+}
+.seta{
+  font-size:2.5em;
+  color:#fff;
+  margin:30px 30px 0;
+  cursor:pointer;
+}
+.seta1:hover .slide{
+
+translate: -336px;
+}
+.seta1:hover .slide{
+
+  translate: 336px;
+  }
+
+
+
