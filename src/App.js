@@ -1,4 +1,4 @@
-import Pag1 from './components/Pag1'
+import Pag1 from './components/frontend/Pag1'
 
 function App() {
   return (
@@ -9,5 +9,5 @@ function App() {
     </div>
   );
 }
-
+ 
 export default App;
