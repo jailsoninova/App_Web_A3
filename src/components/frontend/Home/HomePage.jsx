@@ -1,11 +1,9 @@
-import './Estilo.css';
+import React from "react";
+import './styleHomePage.css';
 
-function Pag1() {
-
-    return (  
-            
+function HomePage() {
+  return (  
         <>
-        
             <div className="Conteiner">
 
                 {/*..........ROW FIRST - HEAD - LINKS..........*/}
@@ -139,4 +137,4 @@ function Pag1() {
         </>  /* Fim */
     )
 }
-export default Pag1
+export default HomePage
