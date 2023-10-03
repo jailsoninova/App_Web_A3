@@ -1,13 +1,19 @@
 import React from "react";
 import './styleHomePage.css';
 
+
 function HomePage() {
-  return (  
+  
+    function EventLogin(){
+    alert("AGUARDE!\nEstamos trabalhando");
+    }
+    return (  
+        
         <>
             <div className="Conteiner">
 
                 {/*..........ROW FIRST - HEAD - LINKS..........*/}
-                <div class="containerFilho div1">
+                <div className="containerFilho div1">
                     <div className="containerFilho soteroGames">
                         <h1 className="h1 sotero">Sotero</h1>
                         <h1 className="h1 games">Games</h1>
@@ -23,18 +29,18 @@ function HomePage() {
                 </div>
 
                 <div className="containerFilho div3">
-                    <h3 className="h3 h3_2">+Jogos</h3>
+                    <h3 className="h3 h3_2" onClick={EventLogin}>+Jogos</h3>
                 </div>
 
                 <div className="containerFilho div4">
-                    <h3 className="h3 h3_3">Cadastre-se</h3>
-                    <h3 className="h3 h3_4">Login</h3>
+                    <h3 className="h3 h3_3" onClick={EventLogin}>Cadastre-se</h3>
+                    <h3 className="h3 h3_4" onClick={EventLogin}>Login</h3>
                 </div>
             </div>{/*..........fim div Conteiner..........*/}
 
             {/*.............. HEADER MOBILE ..............*/}
             <div className='container-mobile'>
-                <div class="header-mobile">
+                <div className="header-mobile">
                     <figure className=" figure fenix-mobile">
                         <img className="img-fenix-mobile" alt="fenix" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGUIv1A9wDrFGM9Zo6EnyTVlILrDC7Y8rKuzXkQOdgqujWp_JHgrluE9v8U62ItmcmN0hL2ICiRhVP0Lsn7ZnEn-exi4Hgo2nrza4AoloVhQtrp5eav2gEXEpK5ePOM491U3koQB-WemDtaAs7A8Sd4Zz13XcGQcg59MG3mx251-jZCq82tMIUv3c1INc/s200/fenixleft.png" />
                     </figure>
@@ -110,7 +116,7 @@ function HomePage() {
             {/*..........ROW FIVE- FOOTER..........*/}
 
             <footer className='containerfilho footer'>
-                <div class="containerFilho div1">
+                <div className="containerFilho div1">
                     <div className="containerFilho soteroGames">
                         <h1 className="h1 sotero">Sotero</h1>
                         <h1 className="h1 games">Games</h1>

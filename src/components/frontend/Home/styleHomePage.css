@@ -22,6 +22,22 @@ div.Conteiner {
 .h3_1{
  width:clamp(100px, 12vw, 45vw);
 }
+.h3_2, .h3_3, .h3_4{
+  cursor: pointer;
+  box-shadow: 1px 1px 3px #303030b6;
+  padding:2px 5px;
+  background-color: #88008399;
+
+}
+.h3_2:hover, .h3_3:hover, .h3_4:hover{
+color:#28f1ff;
+}
+.h3_2:active, .h3_3:active, .h3_4:active{
+    color:#12ffc4;
+    transform:scale(.985);
+    box-shadow: -1px -1px -3px #ececec;
+
+}
 .div1{
 display:flex;
 align-items: center;

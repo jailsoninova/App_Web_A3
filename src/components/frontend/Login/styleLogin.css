@@ -3,7 +3,7 @@ background-color: #4c5d70;
 
 }
 /*.........LINHA 1....................*/
-#login{
+.login{
      color: #fff;
      display:flex;
      flex-direction:column;
@@ -15,7 +15,7 @@ background-color: #4c5d70;
      box-sizing:border-box;    
 }
 
-#header{  
+.header{  
      display:flex;
      align-items: center;
      justify-content: center;   
@@ -26,7 +26,7 @@ background-color: #4c5d70;
      background:linear-gradient(180deg,#156bcf, #1c011b, #156bcf);
 }
 
-#login .text-Login{
+.login .text-Login{
      max-width: 100%;
      color: #fff;
      padding: 20px 0;
@@ -35,7 +35,7 @@ background-color: #4c5d70;
 }
 
 /*.........LINHA 2....................*/
-figure#container-arrow{
+figure.container-arrow{
      display:flex;
      margin:0;
      padding:0;
@@ -53,7 +53,7 @@ img.arrow{
 }
 
 /*.........LINHA 3....................*/
-#container-form{     
+.container-form{     
      display:flex;
      flex-direction: column;
      align-items: center;
@@ -65,7 +65,7 @@ img.arrow{
      background: rgba(80, 74, 82, 0.78);
      box-shadow: 1px 1px 3px #333333;
 }
-#header2{
+.header2{
      display:flex;
      background-color: #433d45;
      width:100%;
@@ -78,7 +78,7 @@ img.arrow{
      font-size:clamp(1em, 1.5em, 3vw);
 
 }
-#login .form{
+.login .form{
      width: 90%;
      height:max-content;
      margin:20px;
@@ -90,17 +90,17 @@ img.arrow{
      background-size:contain;
      background-position: right;
  } 
- #login .field {
+ .field .field {
      padding-bottom:.5rem;
      box-sizing: border-box;
  }
- #login .field label{
+ .login .field label{
      display:block;
      margin-bottom: 5px;
      font-size:clamp(1em, 1.4em, 3vw);
      color:#f9f9e5;
  }
- #login .field input{
+ .login .field input{
      width: 100%;
      box-sizing: inherit;
      padding:8px 0;
@@ -109,11 +109,11 @@ img.arrow{
      border:none;
      box-shadow: 1px 1px 3px #191919;
  }
- #login .actions{
+ .login .actions{
      text-align: center;
      margin-top:1rem;
  }
- .button{
+ .botao{
      font-size:clamp(1em, 1.3em, 3vw);
  }
 
