@@ -1,0 +1,44 @@
+section#container-mobile{
+ margin:0;
+ padding: 0;
+ max-width: 100%;
+ max-height:100%;
+ background:linear-gradient(#11253D, #6A0066, #080064);
+ display:flex;
+ align-items: center;
+ justify-content: space-around;
+ display:none;
+ 
+}
+#fenix-header{
+ margin:0;
+ padding:0;
+}
+.img-fenix-mobile{
+ width: clamp(50px, 100px, 13vw);
+}
+h1.title-mobile{
+ color:#c2d423;
+ font-size:28px;
+
+}
+#menu-bar{
+ margin:0;
+ padding:0;
+}
+.img-menu{
+ max-width: clamp(40px, 40px, 5vw);
+}
+
+@media screen and (max-width: 541px) {
+ 
+ section#container-mobile{
+   display:flex;
+ }
+}
+@media screen and (max-width: 334px) {
+ h1.title-mobile{
+   color:#c2d423;
+   font-size:22px;
+ }
+}

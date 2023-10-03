@@ -1,5 +1,5 @@
-import HomePage from './components/frontend/Home/HomePage'
-import LoginPage from './components/frontend/Login/LoginPage'
+import HomePage from './components/Home/HomePage'
+import LoginPage from './components/Login/LoginPage'
 
 
 
