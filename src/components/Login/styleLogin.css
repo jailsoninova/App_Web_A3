@@ -3,7 +3,7 @@ background-color: #4c5d70;
 
 }
 /*.........LINHA 1....................*/
-.login{
+section.container{
      color: #fff;
      display:flex;
      flex-direction:column;
@@ -15,7 +15,7 @@ background-color: #4c5d70;
      box-sizing:border-box;    
 }
 
-.header{  
+header.login{  
      display:flex;
      align-items: center;
      justify-content: center;   
@@ -26,7 +26,7 @@ background-color: #4c5d70;
      background:linear-gradient(180deg,#156bcf, #1c011b, #156bcf);
 }
 
-.login .text-Login{
+h2.text-Login{
      max-width: 100%;
      color: #fff;
      padding: 20px 0;
@@ -53,7 +53,7 @@ img.arrow{
 }
 
 /*.........LINHA 3....................*/
-.container-form{     
+div.container-form{     
      display:flex;
      flex-direction: column;
      align-items: center;
@@ -65,7 +65,7 @@ img.arrow{
      background: rgba(80, 74, 82, 0.78);
      box-shadow: 1px 1px 3px #333333;
 }
-.header2{
+header.soteroGames{
      display:flex;
      background-color: #433d45;
      width:100%;
@@ -74,33 +74,34 @@ img.arrow{
      align-items:center;
      justify-content:center;
 }
-.text-sotero{
+h2.text-sotero{
      font-size:clamp(1em, 1.5em, 3vw);
 
 }
-.login .form{
+form.form{
      width: 90%;
      height:max-content;
      margin:20px;
-     padding: 0.5rem;
+     padding:  0.5rem;
      box-sizing: inherit;
      background-image:linear-gradient(#5f5f9e80, #3b333f80, #5f5f9e80), url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGUIv1A9wDrFGM9Zo6EnyTVlILrDC7Y8rKuzXkQOdgqujWp_JHgrluE9v8U62ItmcmN0hL2ICiRhVP0Lsn7ZnEn-exi4Hgo2nrza4AoloVhQtrp5eav2gEXEpK5ePOM491U3koQB-WemDtaAs7A8Sd4Zz13XcGQcg59MG3mx251-jZCq82tMIUv3c1INc/s200/fenixleft.png");
      background-blend-mode:darken;
      background-repeat: no-repeat;
      background-size:contain;
      background-position: right;
+     border:1px solid #fff;
  } 
- .field .field {
+ div.field {
      padding-bottom:.5rem;
      box-sizing: border-box;
  }
- .login .field label{
+ div.field label{
      display:block;
      margin-bottom: 5px;
      font-size:clamp(1em, 1.4em, 3vw);
      color:#f9f9e5;
  }
- .login .field input{
+ div.field input{
      width: 100%;
      box-sizing: inherit;
      padding:8px 0;
@@ -109,11 +110,14 @@ img.arrow{
      border:none;
      box-shadow: 1px 1px 3px #191919;
  }
- .login .actions{
+ div.actions{
      text-align: center;
      margin-top:1rem;
  }
- .botao{
+ div input.botao{
      font-size:clamp(1em, 1.3em, 3vw);
+     background-color: #89ff68;
+     padding:2px 10px;
+     border-radius:5px;
  }
 
