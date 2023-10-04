@@ -10,10 +10,10 @@ section#container-mobile{
  display:none;
  
 }
-#fenix-header{
+div#fenix-header{
  margin:0;
  padding:0;
-}
+ }
 .img-fenix-mobile{
  width: clamp(50px, 100px, 13vw);
 }
@@ -22,23 +22,25 @@ h1.title-mobile{
  font-size:28px;
 
 }
-#menu-bar{
+div#menu-bar{
  margin:0;
  padding:0;
 }
 .img-menu{
- max-width: clamp(40px, 40px, 5vw);
+ width: 40px;
 }
-
-@media screen and (max-width: 541px) {
- 
- section#container-mobile{
-   display:flex;
+/*.....RESPONSIVIDADE.....*/
+@media screen and (max-width: 871px) { 
+section#container-mobile{
+   display:flex;  
  }
+ h1.title-mobile{
+  color:#c2d423;
+
+}
 }
 @media screen and (max-width: 334px) {
  h1.title-mobile{
-   color:#c2d423;
-   font-size:22px;
+  font-size:22px;
  }
 }

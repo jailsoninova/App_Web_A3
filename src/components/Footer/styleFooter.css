@@ -7,38 +7,48 @@
   max-width:100%;
   height:100%;
 }
-.sotero, .games{
+div.box-container{
+  display:flex;
+}
+div.box1{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1.title-sotero, h1.title-games{
   margin:0;
   padding:0;
-   color:#fffabf;
-  font-size:clamp(14px, 20px, 4vw);
+  color:#fffabf;
+  font-size: clamp(.5rem, .5rem + 1vw, 2rem);
   max-width: max-content;
   height: max-content;
 }
-
-.fig_fenix{
+.fenix-footer{
   margin:0;
   padding:0;
+  max-width: max-content;
+  height: auto;
 }
-img.fenix_foot{
-  width: clamp(50px, 70px, 13vw);  
+img.fenixdown{
+  width: clamp(.5rem, 1.3rem + 5vw, 32rem);  
 }
-.div-foot{
- color:#fff;
- display:flex;
- gap:10px;
- align-items: center;
- justify-content: center;
- max-width:100%;
- max-width:100%;
-}
-.div-foot p{
- margin:0;
- padding:0;
- max-width:100%;
- height:100%;
-}
-.img-facebook, .img-whatsap, .img-email{
+figure.whatsap, figure.facebook, figure.email{
+  color:#fff;
+  display:flex;
+  gap:10px;
+  align-items: center;
+  justify-content: center;
+  max-width:100%;
+  height:100%;
+  margin:0;
+  padding:0;
+ }
+ figcaption{
+  color:#fff;
+ }
+
+.img-whatsap, .img-facebook, .img-email{
  width: clamp(20px, 45px, 4vw);
  height:100%;
  
@@ -51,9 +61,4 @@ img.fenix_foot{
    padding-left:20px;
    padding-right:20px;
  }
- .div-foot{
-   text-align:center;
-   display:block;
-   margin:0;
- } 
 }
