@@ -16,7 +16,7 @@ div.box1{
   align-items: center;
   justify-content: center;
 }
-h1.title-sotero, h1.title-games{
+.title-sotero, .title-games{
   margin:0;
   padding:0;
   color:#fffabf;
@@ -61,4 +61,13 @@ figure.whatsap, figure.facebook, figure.email{
    padding-left:20px;
    padding-right:20px;
  }
+ figure.whatsap, figure.facebook, figure.email{
+  display:block;
+  text-align: center;
+ }
 }
+@media (max-width: 350px) {
+   div.box-container{
+   display:block;
+ } 
+ }

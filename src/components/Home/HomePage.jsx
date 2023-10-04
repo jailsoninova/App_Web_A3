@@ -4,8 +4,8 @@ import Mobile from "../Mobile/HeadMobile.jsx";
 import Footer from "../Footer/footer.jsx";
 import Header from "../Header/header.jsx"
 
-function HomePage() {
-  
+export default function HomePage(props) {
+    
     return (  
     <>
       {/*.............. HEADER WEB ..............*/}
@@ -82,4 +82,3 @@ function HomePage() {
     </>  /* Fim */
     )
 }
-export default HomePage

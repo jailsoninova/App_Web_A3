@@ -6,8 +6,8 @@ function Footer() {
    <footer className='footer'>
       <div className="box-container">
          <div className="box1">
-           <h1 className="title-sotero">Sotero</h1>
-           <h1 className="title-games">Games</h1>
+           <h2 className="title-sotero">Sotero</h2>
+           <h2 className="title-games">Games</h2>
          </div>
          <figure className="fenix-footer">
            <img className="fenixdown" alt="fenix" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhGUIv1A9wDrFGM9Zo6EnyTVlILrDC7Y8rKuzXkQOdgqujWp_JHgrluE9v8U62ItmcmN0hL2ICiRhVP0Lsn7ZnEn-exi4Hgo2nrza4AoloVhQtrp5eav2gEXEpK5ePOM491U3koQB-WemDtaAs7A8Sd4Zz13XcGQcg59MG3mx251-jZCq82tMIUv3c1INc/s200/fenixleft.png" />

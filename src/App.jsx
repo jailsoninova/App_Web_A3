@@ -1,14 +1,11 @@
-import HomePage from './components/Home/HomePage'
-import LoginPage from './components/Login/LoginPage'
-
-
-
+import React from 'react';
+import AppRoutes from './routes';
 
 function App() {
   return (
     <>
-      <HomePage/>
-      <LoginPage/>
+      <AppRoutes/>
+      
     </>
   );
 } ;

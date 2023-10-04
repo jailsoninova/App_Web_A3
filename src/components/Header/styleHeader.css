@@ -24,7 +24,7 @@ h1.sotero, h1.games{
   color:#fffabf;
   font-size: clamp(.5rem, .5rem + 1.7vw, 2rem);
   max-width: max-content;
-  height: auto;
+  height: auto;  
 }
 figure.fig-fenix{
   margin:0;
@@ -44,7 +44,20 @@ h3.texto-escolha{
   font-size: clamp(0.875rem, 0.7442rem + 0.5365vw, 2rem);
   color:#f2d4d4;
 }
+
+div.box3{
+  display:flex;
+  max-width: max-content; 
+}
+nav.box4{
+  display:flex;
+  align-items: center;    
+  justify-content: space-between;
+  gap:30px;
+}
+/*...........LINKS.............*/
 h3.jogos, h3.cadastre, h3.login{
+  text-decoration: none;
   cursor: pointer;
   font-size: clamp(0.875rem, 0.7442rem + 0.5365vw, 2rem);
   box-shadow: 1px 1px 3px #303030b6;
@@ -64,17 +77,6 @@ h3.jogos:active, h3.cadastre:active, h3.login:active{
    transform:scale(.985);
    box-shadow: -1px -1px -3px #3e3e3e;
    background-color: #cd00c699;
-
-}
-div.box3{
-  display:flex;
-  max-width: max-content; 
-}
-div.box4{
-  display:flex;
-  align-items: center;    
-  justify-content: space-between;
-  gap:30px;
 }
 
 /*.....RESPONSIVIDADE......*/

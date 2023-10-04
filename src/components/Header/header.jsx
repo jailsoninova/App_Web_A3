@@ -1,5 +1,6 @@
 import React from "react";
 import './styleHeader.css';
+import { Link } from "react-router-dom";
 
 function Header() {  
  function EventLogin(){
@@ -20,15 +21,16 @@ function Header() {
       
       {/*.........TEXTOS NO HEADER.......*/}
        <div className="divs box2">
-          <h3 className="texto-escolha">Escolha seu jogo ou cadastre um</h3>
+            <h3 className="texto-escolha">Escolha seu jogo ou cadastre um</h3>
        </div>
        <div className="divs box3">
-          <h3 className="jogos" onClick={EventLogin}>+Jogos</h3>
-       </div>
-       <div className="divs box4">
-          <h3 className="cadastre" onClick={EventLogin}>Cadastre-se</h3>
-          <h3 className="login" onClick={EventLogin}>Login</h3>
-       </div>
+            <h3 className="jogos" onClick={EventLogin}>+Jogos</h3>
+       </div>           
+       <nav className="divs box4">
+          <Link to="/Cadastre"><h3 className="cadastre" >Cadastre-se</h3></Link>
+          <Link to="/LoginPage"><h3 className="login" >Login</h3></Link>
+        </nav>
+       
   </section>
   )
 }
