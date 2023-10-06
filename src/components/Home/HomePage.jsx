@@ -4,17 +4,17 @@ import Mobile from "../Mobile/HeadMobile.jsx";
 import Footer from "../Footer/footer.jsx";
 import Header from "../Header/header.jsx"
 
-export default function HomePage(props) {
+export default function HomePage() {
     
-    return (  
+      return (  
     <>
-      {/*.............. HEADER WEB ..............*/}
+      {/*.............. HEADER WEB ............*/}
       <Header/>
    
-      {/*.............. HEADER MOBILE ..............*/}
+      {/*.............. HEADER MOBILE ..........*/}
       <Mobile/>
 
-      {/*..........ROW SECOND - IMG MÓVEL FENIX..........*/}
+      {/*............IMG MÓVEL FENIX............*/}
 
       <div className="containerFilho img_mountain">
         <div className='container-text-fenix'>
@@ -25,31 +25,20 @@ export default function HomePage(props) {
         </div>
       </div>
 
-      {/*..........ROW THIRD - SLIDE DE IMAGENS..........*/}
+      {/*........ROW THIRD - SLIDE DE IMAGENS........*/}
 
-      <div className="containerFilho slide-show" >
-        <div className='setas_slide'>
-            <div className='divBotao divbotao1'>
-                <button className='seta seta1'>&lt;</button>
-            </div>
+      <div className="containerFilho slideShow" >
+        <figure className="containerFilho slideList">
+            <img className="imgGame img_game1" alt="game1" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNs_NL41jv-8BpznmylKG9BjsNBmA0ZvaaNdSbycA5wgEmy9U_jAMre9ZSotx4d30i7LAr4Mv7jDKYoZWIny0p9izxZ5AN6XdQwImXiehmWnGtXwwidcX887rm8pvE6r4Bd67B2Ob5mPDOOzxaWU2vKs3Ex7SHgTwKFRfYPKxDycqAD5cx-ES02MtuhoM/s320/jogo_1.png" />
             
-            <div className='divBotao divbotao2'>
-                <button className='seta seta2' >&gt;</button>
-            </div>
-        </div>
-        <div className="containerFilho slides-list">
-            <img className="img_game img_game1" alt="game1" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNs_NL41jv-8BpznmylKG9BjsNBmA0ZvaaNdSbycA5wgEmy9U_jAMre9ZSotx4d30i7LAr4Mv7jDKYoZWIny0p9izxZ5AN6XdQwImXiehmWnGtXwwidcX887rm8pvE6r4Bd67B2Ob5mPDOOzxaWU2vKs3Ex7SHgTwKFRfYPKxDycqAD5cx-ES02MtuhoM/s320/jogo_1.png" />
-            
-            <img className="img_game img_game2" alt="game2" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixMPB6nRJASYsXc95Z4sw9VP1jfcbmFnOhxiW6Q1sqiMRqfcxy-VfUAf4PSSmv6HN3EHB5uJtDVwqIeMOmWVNu8P9vSBG2oGwj7UryYz6Op9BmV_AwJduMi_dofQ7GJHBND9mskT7eq6us9a8NIv1WlSwE5MnzWDGVr-Cuums5MFf5ybVebc4A7DyLTh4/s320/jogo_2.png" />
+            <img className="imgGame img_game2" alt="game2" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixMPB6nRJASYsXc95Z4sw9VP1jfcbmFnOhxiW6Q1sqiMRqfcxy-VfUAf4PSSmv6HN3EHB5uJtDVwqIeMOmWVNu8P9vSBG2oGwj7UryYz6Op9BmV_AwJduMi_dofQ7GJHBND9mskT7eq6us9a8NIv1WlSwE5MnzWDGVr-Cuums5MFf5ybVebc4A7DyLTh4/s320/jogo_2.png" />
         
-            <img className="img_game img_game3" alt="game3" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKVOBLZ0cGZVS02UwIfMYQbPFhITS2WQzpVtl6K7JAJaJXDGLe5NM8Y96voaWDahF3kbcRsEg_uE62jCOGoT1_AwmFieOG7vJDD0708xPC5Qi-Q7EqyIzmElVzYavDhbuybtei_xyzVABIaTeb5FzYaqIpD9Jwlp2aYnVrjnEwPD8hgCdP1bgdosMGWhs/s320/jogo_3.png" />
+            <img className="imgGame img_game3" alt="game3" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKVOBLZ0cGZVS02UwIfMYQbPFhITS2WQzpVtl6K7JAJaJXDGLe5NM8Y96voaWDahF3kbcRsEg_uE62jCOGoT1_AwmFieOG7vJDD0708xPC5Qi-Q7EqyIzmElVzYavDhbuybtei_xyzVABIaTeb5FzYaqIpD9Jwlp2aYnVrjnEwPD8hgCdP1bgdosMGWhs/s320/jogo_3.png" />
         
-            <img className="img_game img_game4" alt="game4" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg_vLSnvKK7_6DFiBEcMABhoeS31i2MFJzyAix4fmxVd6MaWe2OyNVUx1xUvD4YjHcE1709fl_riYE2Z5IsMRqvc_6kpGVvm_2ncu4aQUOJAXORHMMDo_o-DIg7iRSsD4Ay0oQx9oCbIkPhehCcRLEOm00YgBGUBr_bPS3qZjhFFX6PX050aAx2POudOc/s320/jogo_4.png" />
+            <img className="imgGame img_game4" alt="game4" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhg_vLSnvKK7_6DFiBEcMABhoeS31i2MFJzyAix4fmxVd6MaWe2OyNVUx1xUvD4YjHcE1709fl_riYE2Z5IsMRqvc_6kpGVvm_2ncu4aQUOJAXORHMMDo_o-DIg7iRSsD4Ay0oQx9oCbIkPhehCcRLEOm00YgBGUBr_bPS3qZjhFFX6PX050aAx2POudOc/s320/jogo_4.png" />
         
-            <img className="img_game img_game5" alt="game5" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfs9FX9qb1H7gN97-HcmBWu-8jXYen-qGRu-ReRSN7Ng6RYLUr9q2BWj4TkWN8zKlUIiFkIzoH41pK3NDogU7izFW2P37DpCzfTSyRgOiOszld4J7bDRdssv5BGARdaASkiUy2HU1ufrVpkNuCzwaF2X4kAFDhTr8-uYNoWMUDiQ5JWNvnRyZrhfnKUZw/s320/jogo_5.png" />
-        
-            <img className="img_game img_game6" alt="game6" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9Ed-skFYCI0Rq22ELCc3xlff0u8jXJt60L3FxhQq-izV-mjK4jEwAiOYp0DLDfcMjdFGIxznXsLa9-Ku9wW87C9a__LIkEt5LHsjD3CGIAj80bWUP1pH1rDQolWOBGg02rZNZtyU-qjmWLrHeayJGnvQnU3pzBfPhYXL4GeeoI-nTbipAMp1az2tkeY0/s320/jogo_6.png" />
-        </div>
+                   
+        </figure>
       </div>
          {/*..........ROW FOUR - IMAGENS LOGOS..........*/}
       <div className='containerFilho container-logos'>

@@ -4,9 +4,11 @@ import { Link } from "react-router-dom";
 
 function Header() {  
  function EventLogin(){
-  alert("AGUARDE!\nEstamos trabalhando");
+  alert("AGUARDE! Estamos trabalhando");
   }
+  
   return (  
+    
    <section id="Container">
        {/*..........ROW FIRST - HEAD - LINKS..........*/}
       <div className="divs box1">
@@ -27,7 +29,7 @@ function Header() {
             <h3 className="jogos" onClick={EventLogin}>+Jogos</h3>
        </div>           
        <nav className="divs box4">
-          <Link to="/Cadastre"><h3 className="cadastre" >Cadastre-se</h3></Link>
+          <Link to="/Pag01"><h3 className="cadastre" >Cadastre-se</h3></Link>
           <Link to="/LoginPage"><h3 className="login" >Login</h3></Link>
         </nav>
        

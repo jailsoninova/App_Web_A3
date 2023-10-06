@@ -1,5 +1,6 @@
 import React from "react";
 import "./styleLogin.css";
+import styles from "../../styleGeral.module.css";
 import { Link } from "react-router-dom";
 
 function LoginPage() {           
@@ -9,13 +10,17 @@ function LoginPage() {
        <header className="login">                
               <h2 className="text-Login">LOGIN</h2>               
        </header>
-       {/*.........LINHA 2....................*/}
-       <figure className="container-arrow">
-         <Link to="/">
-            <img className="arrow" alt="SETA" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5ol8nKK4nyRFAAxsrbWEteJOE3TprmHrpU8Z8h516b3ol-Typepe3UMBJkKgrCwrzjg6W5o5Yrv3dHd3CpOSreMR4dO6BntZs978EVFArOA34rSoFMlDGrG05ux_heVQQx9aLHeaiujMjBuhHSHHLx-8QF4wpNiNv9m11ojbtDeB69nctPLXda96AN10/s320/seta-para-tras.png"/>
-         </Link>
-       </figure>
-       {/*.........LINHA 3....................*/}
+      {/*.........LINHA 2 - RETORNAR HOME....................*/}          
+          
+      <div className={styles.returnHome}>
+            <figure className={styles.figureHome}>         
+                <Link to="/" className={styles.link}>            
+                     <img className={styles.homePage1} alt="home"src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMfKQa8L1tKaxyWzM36w-gTasXAs9WUwNekh1yo9vDn6MdwvROhwazvHGiGjX0y8PVqKuu-EZQsJ5TvAa6Xq0pg6O5RTwhjVwi3H8otvFTLHuTt69D6j-NsiQrhS3U4sihMHz-WjzJJR00EjFxB039Rc3Q5hzQS8zzNVp0E7eFydznGF0SMEJPan1NYP8/s200/casa.png"/>
+                </Link> 
+                <figcaption className={styles.ficapt}>Pág Inicial</figcaption> 
+            </figure>   
+         </div>    
+       {/*....LINHA 3 TEXTO SOTERO GAMES.....*/}
        <div className="container-form">
          <header className="soteroGames">
             <h2 className="text-sotero">SOTERO GAMES</h2>
@@ -38,8 +43,6 @@ function LoginPage() {
             </form>  
            </div>        
       </section>
-
-
      )
 }
 export default LoginPage;

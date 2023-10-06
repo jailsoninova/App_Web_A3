@@ -2,7 +2,7 @@ body{
 background-color: #4c5d70;
 
 }
-/*.........LINHA 1....................*/
+/*.........LINHA 1..........*/
 section.container{
      color: #fff;
      display:flex;
@@ -14,7 +14,6 @@ section.container{
      margin:auto;
      box-sizing:border-box;    
 }
-
 header.login{  
      display:flex;
      align-items: center;
@@ -25,7 +24,6 @@ header.login{
      padding:0;
      background:linear-gradient(180deg,#156bcf, #1c011b, #156bcf);
 }
-
 h2.text-Login{
      max-width: 100%;
      color: #fff;
@@ -33,36 +31,17 @@ h2.text-Login{
      margin:0;
      font-size:clamp(1.2em, 1.5em, 3vw)
 }
-
-/*.........LINHA 2....................*/
-figure.container-arrow{
-     display:flex;
-     margin:0;
-     padding:0;
-     width: 100%;
-     box-sizing:inherit;
-     
-}
-img.arrow{
-     display:flex;
-     max-width: 50px;
-     margin:10px 0 0 20px;
-     padding:0;
-     filter: invert(75%);
-     filter: drop-shadow(5px 5px 20px red) invert(75%);
-}
-
-/*.........LINHA 3....................*/
+/*.......LINHA 3 TEXTO SOTERO GAMES.......*/
 div.container-form{     
      display:flex;
      flex-direction: column;
      align-items: center;
      justify-content: center;
-     margin:100px auto;
+     margin:30px auto ;
      padding:0;
      width: 40%;
      height: auto;
-     background: rgba(80, 74, 82, 0.78);
+     background: #504a52c7;
      box-shadow: 1px 1px 3px #333333;
 }
 header.soteroGames{
